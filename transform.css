@@ -1,0 +1,44 @@
+/* translate */
+
+.animation1 .bola1{
+    transform: translate(90px);
+}
+.animation1 .bola2{
+    transform: translate(-90px);
+}
+.animation1 .bola3{
+    transform: translateY(90px);
+}
+.animation1 .bola4{
+    transform: translateY(-90px);
+}
+
+/* rotate */
+
+.animation2 .bola1{
+    transform: rotate(0deg);
+}
+.animation2 .bola2{
+    transform: rotate(90deg);
+}
+.animation2 .bola3{
+    transform: rotate(180deg);
+}
+.animation2 .bola4{
+    transform: rotate(260deg);
+}
+
+/* scale */
+
+.animation3 .bola1{
+    transform: scale(1.5);
+}
+.animation3 .bola2{
+    transform: scale(2.0);
+}
+.animation3 .bola3{
+    transform: scale(2.5);
+}
+.animation3 .bola4{
+    transform: scale(3.0);
+}

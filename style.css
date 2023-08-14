@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body div{
+    height: 50vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+div h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 15px;
+}
+
+body div div {
+    border: 10px solid black;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgb(163, 231, 231);
+    position: relative;
+    transition: all 0.5s;
+}
+body .animation2 div, .animation5 div , .animation8 div{
+    border: 10px solid black;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgb(163, 231, 231);
+    position: relative;
+    border-top:10px solid rgb(0, 189, 189);
+    transition: all 0.5s;
+}
+
+#title{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+

@@ -1,0 +1,160 @@
+
+@keyframes bola71 {
+    25%{
+        transform: translateX(90px);
+    }
+
+    75%{
+        transform: translateX(-90px);
+    }
+}
+@keyframes bola72 {
+    25%{
+        transform: translateX(-90px);
+    }
+
+    75%{
+        transform: translateX(90px);
+    }
+}
+@keyframes bola73 {
+    25%{
+        transform: translateY(90px);
+    }
+
+    75%{
+        transform: translateY(-90px);
+    }
+}
+@keyframes bola74 {
+    25%{
+        transform: translateY(-90px);
+    }
+
+    75%{
+        transform: translateY(90px);
+    }
+}
+
+
+
+
+
+@keyframes bola81 {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes bola82 {
+    0%{
+        transform: rotate(90deg);
+    }
+
+    100%{
+        transform: rotate(450deg);
+    }
+}
+@keyframes bola83 {
+    0%{
+        transform: rotate(180deg);
+    }
+
+    100%{
+        transform: rotate(530deg);
+    }
+}
+@keyframes bola84 {
+    0%{
+        transform: rotate(260deg);
+    }
+
+    100%{
+        transform: rotate(620deg);
+    }
+}
+
+
+
+
+@keyframes bola91 {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+@keyframes bola92 {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(2);
+    }
+}
+@keyframes bola93 {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(2.5);
+    }
+}
+@keyframes bola94 {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(3);
+    }
+}
+
+
+
+.animation7 .bola1{
+    animation: bola71 1s linear infinite;
+}
+.animation7 .bola2{
+    animation: bola72 1s linear infinite;
+}
+.animation7 .bola3{
+    animation: bola73 1s linear infinite;
+}
+.animation7 .bola4{
+    animation: bola74 1s linear infinite;
+}
+
+
+
+.animation8 .bola1{
+    animation: bola81 1s linear infinite;
+}
+.animation8 .bola2{
+    animation: bola82 1s linear infinite;
+}
+.animation8 .bola3{
+    animation: bola83 1s linear infinite;
+}
+.animation8 .bola4{
+    animation: bola84 1s linear infinite;
+}
+
+
+
+.animation9 .bola1{
+    animation: bola91 1s linear alternate infinite;
+}
+.animation9 .bola2{
+    animation: bola92 1s linear alternate infinite;
+}
+.animation9 .bola3{
+    animation: bola93 1s linear alternate infinite;
+}
+.animation9 .bola4{
+    animation: bola94 1s linear alternate infinite;
+}
+
+

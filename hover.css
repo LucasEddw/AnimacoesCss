@@ -1,0 +1,56 @@
+/* translate */
+
+.animation4 .bola1:hover{
+    transform: translate(90px);
+    transition: all 0.5s;
+}
+.animation4 .bola2:hover{
+    transform: translate(-90px);
+    transition: all 0.5s;
+}
+.animation4 .bola3:hover{
+    transform: translateY(90px);
+    transition: all 0.5s;
+}
+.animation4 .bola4:hover{
+    transform: translateY(-90px);
+    transition: all 0.5s;
+}
+
+/* rotate */
+
+.animation5 .bola1:hover{
+    transform: rotate(90deg);
+    transition: all 0.5s;
+}
+.animation5 .bola2:hover{
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+.animation5 .bola3:hover{
+    transform: rotate(260deg);
+    transition: all 0.5s;
+}
+.animation5 .bola4:hover{
+    transform: rotate(360deg);
+    transition: all 0.5s;
+}
+
+/* scale */
+
+.animation6 .bola1:hover{
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+.animation6 .bola2:hover{
+    transform: scale(2.0);
+    transition: all 0.5s;
+}
+.animation6 .bola3:hover{
+    transform: scale(2.5);
+    transition: all 0.5s;
+}
+.animation6 .bola4:hover{
+    transform: scale(3.0);
+    transition: all 0.5s;
+}
